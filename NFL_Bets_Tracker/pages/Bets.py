@@ -65,18 +65,20 @@ with tab1:
             week_no = st.number_input("Week", min_value=1, step=1)
             pick_type = st.selectbox("Team/Player", ["Player", "Team", 'Special'])
             pick_answer = st.text_input("Pick")
-            bet_type = st.selectbox("Bet Type", ['Player Prop', 'Spread', 'MoneyLine', 'Total', 'Special'])
-            odds = st.number_input("Odds")
+            bet_type = st.selectbox("Bet Type", ['Passing Yards','Rushing Yards','Receiving TDs','Passing TDs','Rushing And Receiving Yards', 'ATS', 'MoneyLine', 'Total', 'Special'])
+            wager = st.number_input("Odds",format="%0.1f")
+            odds = st.number_input("Odds",format="%0.1f")
             outcome = st.selectbox("Outcome", ['Pending', "Won", "Lost"])
             submit = st.form_submit_button("Add Bet")
+
 
         # Add new bet to the PostgreSQL database
         if submit:
             try:
                 c.execute('''
-                    INSERT INTO bets (date, week, expert, pick_type, pick_answer, bet_type, odds, outcome)
+                    INSERT INTO bets (date, week, expert, Team/Player, pick_answer, bet_type, odds, outcome)
                     VALUES (%s, %s, %s, %s, %s, %s, %s, %s)
-                ''', (bet_date, week_no, bettor, pick_type, pick_answer, bet_type, odds, outcome))
+                ''', (bet_date, week_no, bettor, pick_type, pick_answer, bet_type, wager, odds, outcome))
                 conn.commit()
                 st.success("Bet added!")
                 # Reload data after adding a new bet
