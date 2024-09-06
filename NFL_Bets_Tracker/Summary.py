@@ -15,7 +15,7 @@ if not DATABASE_URL:
 
 # Connect to PostgreSQL database (or create it)
 try:
-    conn = psycopg2.connect(DATABASE_URL, sslmode='require')
+    conn = sqlite3.connect(DATABASE_URL)
     c = conn.cursor()
 except Exception as e:
     st.error(f"Failed to connect to the database: {e}")
@@ -53,5 +53,16 @@ st.write(f"Total Pending Bets: {len(pending_bets)}")
 
 # Display summary of bets by expert
 st.subheader("Bets by Expert")
-expert_summary = bets_df.groupby('expert').size().reset_index(name='Total Bets')
+# Aggregate the bets data
+expert_summary = bets_df.groupby('expert').agg({
+    'id': 'count', 
+    'Dollars': 'sum', 
+    'outcome': lambda x: (x == 'Won').sum(),  # Count won bets
+}).rename(columns={'id': 'Total Bets', 'Dollars': 'Dollars Gained', 'outcome': 'Won Bets'})
+# Add Lost Bets and Win Percentage to the summary
+expert_summary['Lost Bets'] = expert_summary['Total Bets'] - expert_summary['Won Bets']
+expert_summary['Win Percentage'] = (expert_summary['Won Bets'] / expert_summary['Total Bets'] * 100).fillna(0)
+# Reorder columns
+expert_summary = expert_summary[['Total Bets', 'Won Bets', 'Lost Bets', 'Win Percentage', 'Dollars Gained']]
+# Display the expert summary
 st.write(expert_summary)
