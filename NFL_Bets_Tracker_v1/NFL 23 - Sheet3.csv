@@ -1,0 +1,93 @@
+ID,Date,Week,Expert,Team_Player,Pick,Type,Side,Wager,Odds,Outcome,Dollars
+2023001,09/10/2023,1,Dylan,Team,Philidephia Eagles,ATS,-4,20,-110,Won,18.18
+2023002,09/10/2023,1,Jeff,Team,Jacksonville Jaguars,ATS,-4.5,20,-110,Won,18.18
+2023003,09/10/2023,1,Seth,Player,Derek Carr,Passing Yards,Over 244.5,20,-110,Won,18.18
+2023004,09/10/2023,1,Cade,Player,Bijan Robinson,Rushing Yards,Over 58.5,20,-110,Won,18.18
+2023005,09/10/2023,1,Micah,Player,Bryce Young,Passing Yards,Over 195.5,20,-110,Lost,-20.00
+2023006,09/10/2023,1,Tristen,Team,Minnesota Vikings,ATS,-4.5,20,-110,Lost,-20.00
+2023007,09/10/2023,1,Jacob,Player,Dak Prescott,Passing TDs,Over 1.5,20,-110,Lost,-20.00
+2023008,09/14/2023,2,Dylan,Team,Washington Commanders,ATS,3.5,20,-110,Won,18.18
+2023009,09/14/2023,2,Jeff,Player,Kaddarius Toney,Receptions,Over 2.5,20,-110,Won,18.18
+2023010,09/14/2023,2,Seth,Player,Bijan Robinson,Rushing Yards,Over 57.5,20,-110,Won,18.18
+2023011,09/14/2023,2,Micah,Player,Justin Herbert,Passing Yads,Over 285.5,20,-110,Won,18.18
+2023012,09/14/2023,2,Tristen,Team,N/A,Total,Over 47.5,20,-110,Won,18.18
+2023013,09/14/2023,2,Jacob,Team,New York Giants,ATS,-4.5,20,-110,Lost,-20.00
+2023014,09/21/2023,3,Dylan,Team,Tennessee Titans,ATS,3.5,20,-110,Lost,-20.00
+2023015,09/21/2023,3,Jeff,Player,Jordan Love,Passing TDs,Over 1.5,20,-110,Lost,-20.00
+2023016,09/21/2023,3,Seth,Player,Desean Watson,Passing Yards,Over 227.5,20,-110,Won,18.18
+2023017,09/21/2023,3,Cade,Player,Justin Watson,Receiving Yards,Over 20.5,20,-110,Won,18.18
+2023018,09/21/2023,3,Micah,Player,Marquez Valdes-Scatling,Receiving Yards,Over 27.5,20,-110,Won,18.18
+2023019,09/21/2023,3,Tristen,Team,Los Angeles Chargers,ATS,1.5,20,-110,Won,18.18
+2023020,09/21/2023,3,Jacob,Player,Jahmyr Gibbs,Rushing Yards,Over 46.5,20,-110,Won,18.18
+2023021,09/28/2023,4,Dylan,Team,N/A,Total,OVER 48.5,20,-110,Lost,-20.00
+2023022,09/28/2023,4,Jeff,Player,Jaylen Warren,Receiving Yards,Over 17.5 ,20,-110,Won,18.18
+2023023,09/28/2023,4,Seth,Team,Jacksonville Jaguars,ATS,-3,20,-110,Won,18.18
+2023024,09/28/2023,4,Cade,Player,Jaylen Waddle,Receiving Yards,Over 62.5,20,-110,Lost,-20.00
+2023025,09/28/2023,4,Micah,Player,Damien Pierce,Rushing Yards,Over 53.5,20,-110,Won,18.18
+2023026,09/28/2023,4,Tristen,Team,Los Angeles Chargers,ATS,-6,20,-110,Won,18.18
+2023027,09/28/2023,4,Jacob,Team,Denver Broncos,ATS,-3.5,20,-110,Lost,-20.00
+2023028,10/05/2023,5,Dylan,Team,Jacksonville Jaguars,ATS,3.5,20,-110,Won,18.18
+2023029,10/05/2023,5,Jeff,Team,N/A,Total,Over 50.5,20,-110,Lost,-20.00
+2023030,10/05/2023,5,Seth,Player,Bijan Robinson,Rushing and Receiving Yards,Over 80.5,20,-110,Lost,-20.00
+2023031,10/05/2023,5,Cade,Player,Zay Flowers,Receiving Yards,Over 43.5,20,-110,Won,18.18
+2023032,10/05/2023,5,Micah,Team,N/A,Total,Over 42,20,-110,Lost,-20.00
+2023033,10/05/2023,5,Tristen,Team,N/A,Total,OVER 52.5,20,-110,Lost,-20.00
+2023034,10/05/2023,5,Jacob,Player,David Montegomery,Rushing Yards,Over 80.5,20,-110,Won,18.18
+2023035,10/12/2023,6,Dylan,Player,Raheem Mostert,Rushing Yards,Over 68.5 ,20,-110,Won,18.18
+2023036,10/12/2023,6,Jeff,Player,Michael Pittman,Receiving Yards,Over 60.5 Rec,20,-110,Won,18.18
+2023037,10/12/2023,6,Seth,Team,Detroit Lions,ATS,-3,20,-110,Won,18.18
+2023038,10/12/2023,6,Cade,Player,Jordan Addison,Receiving Yards,Over 41.5,20,-110,Lost,-20.00
+2023039,10/12/2023,6,Micah,Team,N/A,Total,Over 43.5,20,-110,Won,18.18
+2023040,10/12/2023,6,Tristen,Team,San Francisco 49ers,ATS,-9.5,20,-110,Lost,-20.00
+2023041,10/12/2023,6,Jacob,Player,Bijan Robinson,Receptions,Over 3.5,20,-110,Won,18.18
+2023042,10/19/2023,7,Dylan,Team,Los Angeles Rams,ATS,-3,20,-110,Lost,-20.00
+2023043,10/19/2023,7,Jeff,Player,Jahmyr Gibbs,Receiving Yards,Over 16.5,20,-110,Won,18.18
+2023044,10/19/2023,7,Seth,Player,Kyle Pitts,Receiving Yards,Over 35.5,20,-110,Won,18.18
+2023045,10/19/2023,7,Cade,Player,Tyreek Hill,Receiving Yards,Under 97.5,20,-110,Won,18.18
+2023046,10/19/2023,7,Micah,Player,Rashee Rice,Receiving Yards,Over 40.5,20,-110,Won,18.18
+2023047,10/19/2023,7,Tristen,Player,Lamar Jackson,Rushing Yards,Over 33.5,20,-110,Lost,-20.00
+2023048,10/19/2023,7,Jacob,Player,Travis Kelce,Receptions,Over 6.5,20,-110,Won,18.18
+2023049,10/26/2023,8,Dylan,Player,CJ Stroud,Passing Yards,Over 241.5,20,-110,Lost,-20.00
+2023050,10/26/2023,8,Jeff,Player,Travis Etienne Jr,Receiving Yards,Over 22.5,20,-110,Won,18.18
+2023051,10/26/2023,8,Seth,Team,New Orlean Saints,ATS,-1,20,-110,Won,18.18
+2023052,10/26/2023,8,Cade,Player,Bryce Young,Passing Yards,Over 217.5,20,-110,Won,18.18
+2023053,10/26/2023,8,Micah,Player,AJ Brown,Receiving Yards,Over 68.5 ,20,-110,Won,18.18
+2023054,10/26/2023,8,Tristen,Player,Nico Collins,Receiving Yards,Over 60.5,20,-110,Lost,-20.00
+2023055,10/26/2023,8,Jacob,Player,Breece Hall,Rushing Yards,Over 71.5,20,-110,Lost,-20.00
+2023056,11/02/2023,9,Dylan,Team,Seattle Seahawks,ATS,5.5,20,-110,Lost,-20.00
+2023057,11/02/2023,9,Jeff,Team,Los Angeles Rams,ATS,3.5,20,-110,Lost,-20.00
+2023058,11/02/2023,9,Seth,Player,CJ Stroud,Passing Yards,Over 236.5,20,-110,Won,18.18
+2023059,11/02/2023,9,Cade,Player,Brett Rypien,Passing Yards,Over 194.5,20,-110,Lost,-20.00
+2023060,11/02/2023,9,Micah,Team,Atlanta Hawks,ATS,-3.5,20,-110,Lost,-20.00
+2023061,11/02/2023,9,Tristen,Player,Alexander Mattison,Rushing Yards,Over 41.5,20,-110,Won,18.18
+2023062,11/02/2023,9,Jacob,Player,Bijan Robinson,Rushing Yards,Over 59.5,20,-110,Lost,-20.00
+2023063,11/09/2023,10,Dylan,Team,N/A,Total,Under 41,20,-110,Lost,-20.00
+2023064,11/09/2023,10,Jeff,Player,Trevor Lawrence,Rushing Yards,Over 16.5,20,-110,Lost,-20.00
+2023065,11/09/2023,10,Seth,Player,DeAndre Hopkins,Receiving Yards,Over 59.5,20,-110,Lost,-20.00
+2023066,11/09/2023,10,Cade,Player,CeeDee Lamb,Receiving Yards,Over 77.5,20,-110,Won,18.18
+2023067,11/09/2023,10,Micah,Player,Jahmyr Gibbs,Receiving Yards,Over 37.5 RuYds,20,-110,Won,18.18
+2023068,11/09/2023,10,Tristen,Player,Alvin Kamara,Receptions,Over 4.5,20,-110,Won,18.18
+2023069,11/09/2023,10,Jacob,Player,Jamar Chase,Receiving Yards,Over 85.5,20,-110,Won,18.18
+2023070,11/16/2023,11,Dylan,Team,Seattle Seahawks,Moneyline,,20,-110,Lost,-20.00
+2023071,11/16/2023,11,Jeff,Player,Jahmyr Gibbs,Rushing Yards,Over 43.5,20,-110,Lost,-20.00
+2023072,11/16/2023,11,Seth,Team,Dallas Cowboys,ATS,-6.5 1H,20,-110,Won,18.18
+2023073,11/16/2023,11,Cade,Player,Terry McClaurin,Receiving Yards,Over 59.5,20,-110,Lost,-20.00
+2023074,11/16/2023,11,Micah,Player,Calvin Ridley,Receiving Yards,Over 50.5,20,-110,Won,18.18
+2023075,11/16/2023,11,Tristen,Team,Pittsburgh Steelers,ATS,2.5,20,-110,Lost,-20.00
+2023076,11/16/2023,11,Jacob,Player,David Montegomery,Rushing Yards,Over 51.5,20,-110,Won,18.18
+2023077,11/23/2023,12,Dylan,Team,Los Angeles Rams,ATS,-1,20,-110,Won,18.18
+2023078,11/23/2023,12,Jeff,Player,Devin Singletary,Rushing Yards,Over 45.5,20,-110,Won,18.18
+2023079,11/23/2023,12,Seth,Player,Stefon Diggs,Receptions,Over 6.5,20,-110,Lost,-20.00
+2023080,11/23/2023,12,Tristen,Player,Alvin Kamara,Receptions,Over 4.5,20,-110,Lost,-20.00
+2023081,11/23/2023,12,Jacob,Player,Trey McBride,Receptions,Over 5.5,20,-110,Won,18.18
+2023082,11/30/2023,13,Dylan,Team,Detroit Lions,ATS,-4,20,-110,Won,18.18
+2023083,11/30/2023,13,Jeff,Player,Kenny Picket,Passing Yards,Over 195.5,20,-110,Lost,-20.00
+2023084,11/30/2023,13,Seth,Player,Michael Pittman,Receptions,Over 6.5,20,-110,Won,18.18
+2023086,11/30/2023,13,Micah,Player,Bailey Zappe,Passing Yards,Over 181.5,20,-110,Lost,-20.00
+2023087,11/30/2023,13,Tristen,Player,Adam Thielen,Receptions,Over 5.5,20,-110,Lost,-20.00
+2023088,11/30/2023,13,Jacob,Team,Indianapolis Colts,ATS,-1.5,20,-110,Won,18.18
+2023089,12/07/2023,14,Dylan,Team,Los Angeles Rams,ATS,4.5,20,-110,Lost,-20.00
+2023090,12/07/2023,14,Jeff,Team,Houston Texans,ATS,-6.5,20,-110,Lost,-20.00
+2023091,12/07/2023,14,Seth,Player,Antonia St. Brown,Receptions,Over 6.5,20,-110,Lost,-20.00
+2023092,12/07/2023,14,Tristen,Player,Chris Olave,Receptions,Over 5.5,20,-110,Lost,-20.00
+2023093,12/07/2023,14,Jacob,Player,Cortland Sutton,Receptions,4.5,20,-110,Lost,-20.00
